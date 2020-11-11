@@ -1,0 +1,289 @@
+
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i);
+ @import url(https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i);
+
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/*font-family: 'Philosopher', sans-serif;*/
+/*.background css {
+    background: url(../images/productimg.jpg) no-repeat;
+    padding: 12% 0;
+    background-size: cover;
+    background-attachment: fixed;
+}*/
+body {
+	overflow-x: hidden;
+}
+a {
+	text-decoration: none!important;
+}
+:hover, a, h1, h2, h3, h4, h5, h6, li, p, ul {
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+color: #777;
+}
+::-moz-placeholder { /* Firefox 19+ */
+color: #777;
+}
+:-ms-input-placeholder { /* IE 10+ */
+color: #777;
+}
+:-moz-placeholder { /* Firefox 18- */
+color: #777;
+}
+.no-margin {
+	margin: 0!important;
+	padding: 0!important
+}
+.center {
+	margin: 0 auto!important;
+	display: table!important;
+	float: none!important
+}
+
+/*About page started*/
+.aboutPage h2 {color: #171717;font-weight: 400;font-family: 'Philosopher', sans-serif;text-align: center;    font-family: 'Philosopher', sans-serif;padding: 19px 0;font-size: 50px;}
+.aboutPage p {color: #323232;font-family: 'Helvetica';font-size: 14px;text-align: center;line-height: 29px;margin: 0 auto;display: table;padding: 0 0 25px 0;}
+.AboutImg img {position: absolute;top: 41%;z-index: -1; bottom: 0;left: 0;right: 0;}
+/*About page End*/
+
+/*commmercial page Start*/
+.commercialPage {background-color: #f7f7f7;}
+.commercialPage .buildingCs{}
+.commercialPage .buildingCs .heading h3{font-size: 20px;font-family: 'Helvetica';color:#464646;    padding: 15px 0;font-weight: 600;}
+.commercialPage .buildingCs .heading p{    padding: 0 0 14px 0;font-family: 'Helvetica';font-size: 12px;color: #464646;line-height: 26px;width: 81%;}
+.commercialPage .heading span {float: right;margin: 0 5px 0 0;font-family: 'Helvetica';font-size: 27px;font-weight: 500;color: #006ad0;}
+.commercialPage .row.space3 {padding: 45px 0 0 0;}
+.commercialPage .heading ul {padding: 0;}
+.commercialPage .heading ul li{display: inline-block;margin: 0 0 0 8px;}
+.commercialPage .heading ul li a:hover {color: #f41c4a;font-family: 'Helvetica';}
+.commercialPage .heading ul li a i {margin: 0 13px 0 0; color: #006ad0;}
+.commercialPage .appHead1 a {font-size: 18px; color: #fff;font-family: 'Helvetica';background-color: #006ad0;padding: 11px 13px;margin: 0 0 0 10px;}
+.commercialPage .appHead a span {padding: 0 0px 1px 5px!important;font-size: 20px;font-family: 'Helvetica';}
+.commercialPage .buildingCs {background-color: transparent;padding: 5px 0 27px 4px;}
+.commercialPage .buildingCs:hover {background-color: #fff;box-shadow: -4px 1px 20px 0px #cecacabf;}
+.heading {margin: 0 11px;}
+.appHead1 a:hover {background-color: #000;color: #fff!important;}
+.starType {position: absolute;top: 10px; right: 27px;    font-size: 17px;}
+.colorGrew a .fa {color: #cbcbcb;}
+.starType ul{padding: 0;float: right;}
+.starType ul li{display: inline-block;}
+.starType ul li a i{color: #fff}
+.starType ul li a i:hover{color: #f41c4a;}
+/*commmercial page End*/
+
+
+/*Sign in page start*/
+.siginInSec  {background-image: url(../images/signin.png);background-position: center;background-repeat: no-repeat;   background-size: cover;    padding: 5% 0 31% 0;}
+.siginInSec .siginInPage h2{font-weight: 400; font-family: 'Helvetica'; font-size: 100px;color: #fff;text-align: center;font-family: 'Philosopher', sans-serif;}
+.siginInSec .siginInPage p {font-size: 14px; font-family: 'Helvetica'; color: #fff;line-height: 29px;padding: 34px 0;text-align: center; margin: 0 auto;}
+.siginInSec .siginInPage input[type=text] { width : 100%;padding: 14px 9px;outline: none; border: none;   margin: 0 0 15px 0;}
+.siginInSec .siginInPage input[type=text]:hover {box-shadow: inset 1px 1px 20px 3px #04276f;border: none;}
+.siginInSec .siginInPage h4 {font-size: 15px;color: #fff; font-family: 'Helvetica';}
+.siginInSec .siginInPage button {background-color: transparent;border: 1px solid #fff;color: #fff; padding: 17px 62px;margin: 58px auto;display: table;font-size: 17px;}
+/*Sign in page start*/
+
+/*blog page start*/
+.blog .itemType {padding: 0 0 0 18px;border: 2px solid #e1e1e1;}
+.blog .itemType h3{font-size: 24px;font-family: 'Helvetica';color: #292929; width: 88%;}
+.blog .itemType p{font-size: 14px;font-family: 'Helvetica'; color: #292929;    width: 81%;padding: 9px 0;font-weight: 600;}
+.blog .itemType ul{ padding: 0 0 13px 0;}
+.blog .itemType ul li{}
+.blog .itemType ul li {display: inline-block; margin: 0 4px 0 7px;}
+.blog .itemType h5 {color: #bbbbbb;font-weight: 600;font-family: 'Helvetica';}
+.blog .itemType h5:hover {color: #d00909;font-weight: 600;}
+.blog .blogCls {margin: 56px 0 0 0;}
+.blog .blogCls:hover {box-shadow: 1px 1px 12px 5px #00000026;}
+/*blog page end*/
+
+/*blog-detail page start*/
+.blog .blogCls1 {padding: 64px 0;}
+.blog .itemType.bordertype1 {border: none;}
+.blog .itemType.bordertype1 p { padding: 4px 0;    margin: 0;    width: 98%;}
+.blog .itemType.bordertype1 ul {    padding: 0;}
+.blog .itemType.bordertype1 h3 {    width: 50%;    line-height: 37px;}
+.blog .itemType.bordertype1 {    padding: 0;}
+/*blog-detail page end*/
+
+.searchSec h4 {
+    font-size: 15px;font-family: 'Poppins', sans-serif;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+.searchSec  {background-image: url(../images/search.png);background-position: center;background-repeat: no-repeat;   background-size: cover;    padding: 5% 0 31% 0;}
+.searchSec .row {
+    padding: 0 0 8px 0;
+}
+.searchcheck ul { padding: 8px 0 0 0;}
+.searchcheck ul li{display: inline-block; padding: 0 10px 0 0px;}
+.searchcheck ul li input {
+    margin: 0 1px 0 4px;
+    border: 1px solid #000;
+    width: 15px;
+    height: 15px;font-family: 'Poppins', sans-serif;
+}
+.searchInput p {
+    padding: 8px 0 0 29px;
+    font-size: 11px;
+    color: #010101;
+    font-family: 'Poppins', sans-serif;
+}
+
+.searchInput input {
+    width: 100%;
+       padding: 22px 12px;
+    outline: none;
+}
+.searchcheck ul li label {
+    font-size: 14px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.searchcheck ul li select {
+            padding: 24px 207px 24px 3px;
+    width: 100%;
+    outline: none;
+}
+
+.beds  a {
+    display: inline-block;
+    background-color: #000;
+    padding: 15px 20px;
+    margin: 0;
+}
+.beds ul  {
+  padding: 0;
+}
+
+.beds ul li {
+    display: inline-block;
+    margin: 0 -2px;
+}
+
+.beds h4 {
+    margin: 14px 0 0 0;
+}
+.flow1 a {
+    background-color: #005fca;
+    color: #fff;
+}
+.flow2 a {
+    background-color: #f1f1f1;
+    color: #b1b1b1;
+}
+.flow3 a {
+    background-color: #ffffff;
+    color: #b1b1b1;
+}
+.flow2 a:focus {
+    background-color: #005fca;
+    color: #fff;
+}
+.flow3 a:focus {
+    background-color: #005fca;
+    color: #fff;
+}
+
+.showMore2 button {
+    float: right;
+    padding: 19px 65px;
+    font-size: 18px;
+    background-color: #005fca;
+    color: #fff;
+    border: none;
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+
+}
+.showMore2 button:hover {
+   
+    background-color: #000;
+   
+}
+.properties .nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 7px;
+}
+.properties .nav-tabs>li {
+    float: left;
+    margin-bottom: -1px;
+    margin: 38px 2px 0 0!important;
+}
+.showMore1 a {
+    font-size: 15px;
+    margin: 28px 0;
+    line-height: 73px;
+    color: #fff;
+    font-weight: 600;
+}
+.row.fox {
+    margin: 36px 0;
+}
+
+.col-md-6.col-sm-6.col-xs-12.margin1 {
+    padding: 0;
+}
+
+.searchSec h2 {
+    font-size: 118px;
+    color: #fff;
+    text-align: center;
+    padding: 0 0 49px 0;
+    font-family: 'Philosopher', sans-serif;
+}
+
+
+.nav-tabs>li>a {
+    line-height: 1.42857143;
+    border: 1px solid transparent;
+    border-radius: 4px 4px 0 0;
+    padding: 0;
+}
+.nav-tabs {
+     border-bottom: none!important;
+}
+.nav-tabs>li {
+    float: left;
+    margin-bottom: -1px;
+    margin: 38px 15px 0 0!important;
+}
+
+
+
+.properties {padding: 50px 0;}
+.propertyTitle h2 { font-size: 24px; color: #333333; font-weight: 400; border-bottom: 1px solid #cccccc;padding: 0 0 13px 0;}
+.propertyTitle p {font-size: 14px;    color: #959595;  padding: 7px 0; line-height: 24px;}
+.propertyTitle ul {    border-bottom: 1px solid #0003;}
+.propertyTitle ul li h5 {color: #959595;    font-size: 14px;}
+.propertyTitle ul li h5 a { color: #333333;    font-size: 14px;    font-weight: 500;}
+.propertyTitle h4 {font-size: 24px;    color: #006ad0;    padding: 8px 0 0 0;}
+.propertyTitle h3 a { font-size: 14px;    color: #000;}
+.btn1 a { background-color: #006ad0;  padding: 12px 36px;    color: #fff;    font-weight: 600;    font-size: 12px;}
+.btn1 a:hover {background-color: #000;}
+.propertyBtn ul {    margin: 0 auto;    display: table;    padding: 29px 0 7px 0;}
+.col-md-4.col-sm-4.col-xs-12.borderLine4 {    border: 1px solid #3333;}
+.propertyBtn ul li {    display: block;    margin: 0 0 32px 0;}
+.btn2 a {    background-color: transparent;    padding: 11px 26px;    border: 1px solid #006ad0;  color: #006ad0;    font-weight: 500;}
+.btn2 a:hover {    background-color: #006ad0;color: #fff;    }
+.propertyTitle ul{padding: 0;}
+.propertyTitle ul li{list-style: none;}
+.bedroomcls {    border: 1px solid #00000045;}
+.bedroomcls h3{font-size: 13px;color: #333333;text-align: center;    font-weight: 700;}
+.bedroomcls h4{font-size: 13px;color: #333333;text-align: center;}
+.bedroomcls i { color: #006ad0;    font-size: 32px;    margin: auto;    display: table;}
+.bedroomcls { border: 1px solid #00000045; margin: 0 4px;}
+.col-sm-3.col-md-3.col-xs-12.middle12 { padding: 28px 0 0 0;}
+.description h3 { font-size: 24px;    color: #000; padding: 15px 0 24px 0;font-weight: 500; }
+.description p {    line-height: 21px;    padding: 0 0 10px 0;}
+.descriptionCls {    margin: 145px 0 0 0;}
+.descriptionMap {    border: 1px solid #d6d6d6;padding: 0 0 26px 8px;}
+.tab-content img {    width: 100%;}
+.descriptionMap h4 {
+    padding: 7px 0;
+}
+@media only screen and (min-device-width:120px) and (max-device-width:767px) and (orientation:portrait) { }
